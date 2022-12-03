@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    cdnURL: '/nuxt-sample-jamstack-spp/',
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
