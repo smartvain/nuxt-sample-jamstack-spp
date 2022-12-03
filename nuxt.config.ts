@@ -2,6 +2,7 @@
 const { API_KEY, SERVICE_DOMAIN } = process.env
 
 export default defineNuxtConfig({
+  target: 'static',
   app: {
     baseURL: '/nuxt-sample-jamstack-spp/',
     cdnURL: 'https://smartvain.github.io/nuxt-sample-jamstack-spp/',
